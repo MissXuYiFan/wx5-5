@@ -2,6 +2,9 @@
 page{
   background: #fff
 }
+view{
+  border: dashed  red 1px
+}
 /* 富文本解析 */
 @import "/wxParse/wxParse.wxss";
 .wxParse-xyf{
@@ -18,7 +21,6 @@ page{
   padding-bottom: 0rpx
 }
 .content-xyf{
-  border: solid red 1px;
   padding: 0 45rpx;
 }
 .red-xyf{
@@ -53,7 +55,6 @@ page{
 
 }
 .wuli{
-  border: solid 1px #ed4040;
   width: 347rpx;
   color: var(--black);
   height: 171rpx;
@@ -99,5 +100,4 @@ padding-bottom: 30rpx
   height: 4.8em;
   overflow: hidden;
   line-height: 2.1;
-  border: solid red 1px;
 }
