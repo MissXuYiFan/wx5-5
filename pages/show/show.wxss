@@ -1,0 +1,103 @@
+/* pages/show/show.wxss */
+page{
+  background: #fff
+}
+/* 富文本解析 */
+@import "/wxParse/wxParse.wxss";
+.wxParse-xyf{
+  margin: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35rpx;
+  line-height: 1.8;
+}
+/* ------------------------------------- */
+.padding-top{
+  padding-top: 0rpx
+}
+.padding-bootm{
+  padding-bottom: 0rpx
+}
+.content-xyf{
+  border: solid red 1px;
+  padding: 0 45rpx;
+}
+.red-xyf{
+  background: #ed4040;
+  color: #fff;
+  font-size: 25rpx
+}
+
+/* 推荐内容 */
+/* 第一版 */
+.aou-xyf{
+  width: 329rpx;
+  height: 243rpx
+}
+.aou-xyf image{
+  width: 100%;
+  height: 100%
+}
+.aobb{
+  position: relative
+}
+.padd-xyf{
+  position: absolute;
+  bottom: 30rpx;
+  left: 370rpx;
+  color: #bdb5b5;
+  display: flex
+}
+.padd-xyf view{
+  padding: 4rpx 8rpx;
+  background-color:var(--ghostWhite);
+
+}
+.wuli{
+  border: solid 1px #ed4040;
+  width: 347rpx;
+  color: var(--black);
+  height: 171rpx;
+  overflow: hidden;
+  font-size: 32rpx;
+  text-overflow:ellipsis;
+  line-height:1.8;
+
+}
+.text-content{
+  font-size:28rpx;
+color:#888;
+height:4.8em;
+overflow:hidden;
+
+}
+.cll{
+  text-align: center
+}
+/* 第二版 */
+.coo{
+display:flex;
+padding:0 30rpx;
+padding-top: 30rpx;
+padding-bottom: 30rpx
+
+}
+.coo image{
+  width: 240rpx;
+  height: 6.4em;
+  margin-right: 20rpx;
+  border-radius: 6rpx
+}
+.boo{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.text-xyf{
+  font-size: 30rpx;
+  color: var(--black);
+  height: 4.8em;
+  overflow: hidden;
+  line-height: 2.1;
+  border: solid red 1px;
+}
